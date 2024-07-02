@@ -62,6 +62,8 @@ button.comprar{
     border-style: solid white;
     border-radius: 10rem;
     padding: 0.5vh;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
 }
 
 button.comprar:hover{
@@ -71,6 +73,7 @@ button.comprar:hover{
 #botao-veja-mais {
     text-align: center;
     margin: 50px;
+    padding-bottom: 10rem;
   }
 
 #botao-veja-mais a {
@@ -122,6 +125,7 @@ section.quem_somos_texto h2{
     align-items: center;
     width: 30rem;
     height: 100%;
+
 }
  form {
     text-align: left;
@@ -130,6 +134,7 @@ section.quem_somos_texto h2{
     background-color: #3acf3a48;
     padding: 2.5rem;
     border-radius: 1rem;
+    box-shadow: 0 0px 5px 0px  rgba(0, 0, 0, 0.493);
 }
 
 form label {
@@ -185,4 +190,13 @@ button:hover {
     width: 40px;
     margin: 20px 10px 20px 10px;
    
+}
+
+.cartaproduto {
+    border: none;
+    box-shadow: 0px 1px 10px 0px  black
+}
+
+.cartaproduto:hover {
+    background-color: #ebebeb;
 }
